@@ -1,3 +1,5 @@
+#Might improve the random number generator later
+
 print("Program that calculates pi using random numbers from 1 up to 1million")
 print("How?? because the probability that two random numbers are co-prime is 6/(pi)^2") 
 import random
