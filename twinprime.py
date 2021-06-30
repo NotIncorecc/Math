@@ -9,7 +9,7 @@ def isprime(num):#will return true if number is prime
             isp = False
             break
         st+=1
-        isp = True #if the above if condition doesn't run that would mean it was a prime
+        isp = True #if the above if condition doesn't run even once that would mean it was a prime
     
     return isp
 
@@ -36,4 +36,7 @@ while (number >= counter):
 
 if(counter > 15):
     print(twi_primes)
+    
+    
+    
 
