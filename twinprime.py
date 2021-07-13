@@ -15,12 +15,7 @@ def isprime(num):#will return true if number is prime
     return isp
 
 
-counter = 15
-twi_primes = '3 and 5\n11 and 13'#we'll check after 15
-
-if(number < 15):
-    print('Only twin primes below 15:-\n'+twi_primes)
-
+counter = 15#we'll start from 15
 
 while (number >= counter):
     if(isprime(counter)):
