@@ -1,5 +1,5 @@
 number = int(input('enter a number and you get all the twin primes below it--'))
-n=[3,5, 11,13]
+n=[3,5, 5,7, 11,13]
 
 def isprime(num):#will return true if number is prime
     num=int(num)
